@@ -20,13 +20,18 @@ your `PATH`. `worker` must be invoked from inside a zellij session.
 
 ### Claude Code plugin (optional)
 
-The repository also ships as a Claude Code plugin that bundles a skill with
-usage guidance. Inside Claude Code:
+The repository also ships as a Claude Code marketplace that exposes a skill
+with usage guidance. Inside Claude Code:
 
 ```
 /plugin marketplace add satoshin21/worker
 /plugin install worker@worker
 ```
+
+- `marketplace add satoshin21/worker` registers this repository as a
+  marketplace by reading `.claude-plugin/marketplace.json`.
+- `install worker@worker` installs the `worker` plugin (the skill) from that
+  marketplace.
 
 The plugin only installs the skill — the `worker` binary itself still has to
 be installed separately (see above).

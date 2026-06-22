@@ -1,0 +1,16 @@
+{
+  "name": "worker",
+  "owner": {
+    "name": "satoshin21"
+  },
+  "metadata": {
+    "description": "Claude Code plugin for the `worker` CLI — create a git worktree for a branch and open it in a new zellij tab."
+  },
+  "plugins": [
+    {
+      "name": "worker",
+      "description": "Guidance skill for the `worker` CLI. Helps configure `worker.worktreeBase` / `worker.postCreate` in gitconfig and run `worker create` from inside a zellij session.",
+      "source": "./"
+    }
+  ]
+}
