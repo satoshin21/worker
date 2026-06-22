@@ -1,0 +1,10 @@
+{
+  "name": "worker",
+  "description": "Guidance for the `worker` CLI — create a git worktree for a branch and open it in a new zellij tab with terminal, lazygit, and claude panes. Load when configuring `worker.worktreeBase` or `worker.postCreate` in gitconfig, running `worker create`, or troubleshooting worker behavior.",
+  "author": {
+    "name": "satoshin21"
+  },
+  "homepage": "https://github.com/satoshin21/worker",
+  "repository": "https://github.com/satoshin21/worker",
+  "license": "MIT"
+}
